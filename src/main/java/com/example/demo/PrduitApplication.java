@@ -13,11 +13,11 @@ public class PrduitApplication {
 
 	public static void main(String[] args) {
 		ConfigurableApplicationContext ctx =  SpringApplication.run(PrduitApplication.class, args);
-		ProduitRepository produitRepository = ctx.getBean(ProduitRepository.class);
+		//ProduitRepository produitRepository = ctx.getBean(ProduitRepository.class);
 		
-		produitRepository.save(new Produit("Livre" , 50 , 20));
-		produitRepository.save(new Produit("cahier",20,25));
-		produitRepository.save(new Produit("Stylo" , 250 , 120));
+		//produitRepository.save(new Produit("Haytem" , 50 , 20));
+		//produitRepository.save(new Produit("Skowza",20,25));
+		//produitRepository.save(new Produit("Stylo o wer9a" , 250 , 120));
 	}
 
 }

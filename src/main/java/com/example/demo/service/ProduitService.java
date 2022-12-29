@@ -27,6 +27,7 @@ public class ProduitService implements IProduitService{
 		produitRepository.save(produit);
 		
 	}
+	
 
 	@Override
 	public void updateProduit(Produit produit) {
